@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.bg-box {
+    background: linear-gradient(to right,#c81c1c, #24369b);
+    height: 100%;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    background: #24b7aa;
+    color: white;
+}
+
+.textview {
+    width: 206px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    border: none;
+    color: #24b7aa;
+}
+
+.double-width {
+    width: 106px;
+}
+
+.double-height {
+    height: 106px;
+}
